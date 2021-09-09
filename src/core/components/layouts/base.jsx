@@ -98,7 +98,7 @@ export default class BaseLayout extends React.Component {
             </Row>
 
             {hasServers || hasSchemes || hasSecurityDefinitions ? (
-              <div className="schema">
+              <div className="scheme-container">
                 <Col className="schemes wrapper" mobile={12}>
                   {hasServers ? (<ServersContainer />) : null}
                   {hasSchemes ? (<SchemesContainer />) : null}
